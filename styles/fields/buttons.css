@@ -1,0 +1,30 @@
+
+
+button {
+    all: unset;
+    font-weight: 500;
+    color: var(--text-highlight);
+    border-radius: .7rem;
+    padding: .8rem  2rem;
+    cursor: pointer;
+    text-align: center;
+
+    &.btn-primary {
+       color: #FFFFFF;
+       background-color: var(--brand-dark);
+
+       &:hover, &:focus {
+        background-color: var(--brand-mid);
+       }
+    }
+
+    &.btn-secondary {
+      margin-left: auto;
+      border: .1rem solid var(--text-highlight);
+
+      &:hover, &:focus {
+        color: var(--brand-dark);
+        outline: .2rem solid var(--surface-secondary);
+       }
+     }
+}
